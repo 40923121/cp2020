@@ -1,0 +1,239 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40923121</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40923121</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='作業.html'>作業</a><ul class='dropdown'><li class='has-children'><a href='40923121 hw1.html'>40923121 hw1</a><ul class='dropdown'><li><a href='PCH7 Expansion Card Audio Video and Storage.html'>PCH7 Expansion Card Audio Video and Storage</a><li><a href='Expansion Slots.html'>Expansion Slots</a><li><a href='PCI PCI X Slots.html'>PCI PCI X Slots</a><li><a href='Summary.html'>Summary</a><li><a href='PCI Express  PCIe  Expansion Slots.html'>PCI Express  PCIe  Expansion Slots</a><li><a href='AMR and CNR Slots.html'>AMR and CNR Slots</a><li><a href='Overclocking.html'>Overclocking</a><li><a href='Choosing a Processor.html'>Choosing a Processor</a><li><a href='CPU Cache.html'>CPU Cache</a><li><a href='Video Output.html'>Video Output</a><li><a href='Storage Devices  Optical Drives.html'>Storage Devices  Optical Drives</a><li><a href='Storage Devices  External Devices.html'>Storage Devices  External Devices</a><li><a href='Storage Devices  Legacy Devices.html'>Storage Devices  Legacy Devices</a><li><a href='擴展插槽.html'>擴展插槽</a><li><a href='PCI   PCI-X插槽.html'>PCI   PCI-X插槽</a><li><a href='概要.html'>概要</a><li><a href='PCI Express PCIe 擴展插槽.html'>PCI Express PCIe 擴展插槽</a><li><a href='AMR和CNR插槽.html'>AMR和CNR插槽</a><li><a href='超頻.html'>超頻</a><li><a href='選擇處理器.html'>選擇處理器</a><li><a href='CPU緩存.html'>CPU緩存</a><li><a href='視頻輸出.html'>視頻輸出</a><li><a href='存儲設備 光盤驅動器.html'>存儲設備 光盤驅動器</a><li><a href='存儲設備 外部設備.html'>存儲設備 外部設備</a><li><a href='存儲設備 舊版設備.html'>存儲設備 舊版設備</a><li><a href='Overview.html'>Overview</a><li><a href='Heat Sources.html'>Heat Sources</a><li><a href='Heat Effects.html'>Heat Effects</a><li><a href='Heat Reduction.html'>Heat Reduction</a><li><a href='Active Air Cooling.html'>Active Air Cooling</a><li><a href='Passive Air Cooling.html'>Passive Air Cooling</a><li><a href='Liquid Cooling.html'>Liquid Cooling</a><li><a href='CPU Cooling.html'>CPU Cooling</a><li><a href='Case Fans.html'>Case Fans</a><li><a href='Liquid Cooling Installation.html'>Liquid Cooling Installation</a><li><a href='總覽.html'>總覽</a><li><a href='熱源.html'>熱源</a><li><a href='熱效應.html'>熱效應</a><li><a href='減少熱量.html'>減少熱量</a><li><a href='主動風冷.html'>主動風冷</a><li><a href='被動風冷.html'>被動風冷</a><li><a href='液體冷卻.html'>液體冷卻</a><li><a href='CPU散熱.html'>CPU散熱</a><li><a href='機箱風扇.html'>機箱風扇</a><li><a href='液體冷卻 安裝.html'>液體冷卻 安裝</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">Storage Devices  External Devices << <a href='Storage Devices  External Devices.html'>Previous</a> <a href='擴展插槽.html'>Next</a> >> 擴展插槽<br /><h1>Storage Devices  Legacy Devices</h1>
+<p id="N106EB" lang="">Floppy disks dominated the removable storage arena until the late 1990s, and now they are nearly extinct in most organizations. While some removable USB thumb drives can store 64 GB or more of data, floppy disks usually only stored 1.44 MB of data. That means a single thumb drive can store the information from more than 60,000 floppy disks! Floppy disks used flexible magnetic media surrounded by a rigid plastic case. The most common floppy (shown in the bottom image) was the 3.5” floppy, which was named based on the diameter of the magnetic media inside the plastic case. It used to be commonplace to find a floppy disk drive on every computer, which was connected using a mini-molex or BERG power cable and a 34-pin internal IDE/PATA cable. Contemporary machines typically do not have these drives, as they have fallen out of favor with the public. If you have a need for a floppy drive, one can be purchased for less than $20 that can connect to your computer using your USB port. Windows always reserves the A:\ and B:\ drives for the floppy disk drive (FDD), even if your system doesn’t have one.</p>
+<div class="imagewrap"><span class="image"><img alt="A set of nine 3.5-inch floppy disks, three green and six yellow." class="popimg" id="_i_6" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image21.png" title="A set of nine 3.5-inch floppy disks, three green and six yellow."/></span>
+<p id="N106F4" lang="">3.5-inch floppy disks. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/eGBmiq" id="_i_7" lang="" target="_blank">Grant Frederiksen</a>.</p>
+</div>
+<p id="N106FD" lang="">The final legacy storage device is the tape drive. Whereas FDDs are completely out of service today, tape drives are still used in some corporate environments. However, cloud computing is a natural solution to replace tape backups in enterprise environments because it not only automates the backup process but sends the data securely offsite. Tape drives were one of the first removable storage devices used to back up system data. Many home users now use external USB hard disks for this purpose, but many enterprise environments still rely on the tape drives, since they can store large amounts of data (up to 3 TB on a single tape), and can have that data easily transferred to a remote facility. Tapes can store data in native (1:1) or compressed (2:1) mode. A tape that can natively store 70 GB, in compressed mode can store 140 GB of data. Most tape drives connect via SCSI ports, but some can be found using IDE/PATA or SATA instead. Also, it is important to remember that if you are using a tape drive system, you must rotate your tapes to prevent them from getting worn out and have a good backup plan. The Tower of Hanoi is a common tape rotation system used by system administrators, and can be helpful in creating your rotational schema.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph of the front of a computer with a 5.25-inch FDD, a 3.5-inch FDD and a tape drive. The tape drive has a tape cassette inserted." class="popimg" id="_i_8" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image22.png" title="Photograph of the front of a computer with a 5.25-inch FDD, a 3.5-inch FDD and a tape drive. The tape drive has a tape cassette inserted."/></span>
+<p id="N10706" lang="">Tape drive. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/eiZ84a" id="_i_9" lang="" target="_blank">VinceFL</a>.</p>
+<p id="N10680" lang="">Hard disk drives (HDDs) are by far the most important storage device used by a personal computer. These drives store all the user’s data files, applications, and operating systems. Whether the drive is internal or external, it is built the same way. Most drives are built from one or more double-sided platters of aluminum or glass that is coated with a magnetic surface. In the first hard drives, users were lucky to store a maximum of 5 MB of data, but now storage space of 500 GB to 3 TB is commonplace in most users’ workstations. Storage has certainly evolved into expansive storage capacities at minimal cost, with excellent performance speeds.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting an encased hard disk. It is a flat and rectangular metal box with a circular design on the top." class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image23.jpeg" title="Photograph depicting an encased hard disk. It is a flat and rectangular metal box with a circular design on the top."/></span>
+<p id="N10689" lang="">Hard disk. Copyright:<span> </span><a href="http://www.123rf.com/profile_karn2608" id="_i_1" lang="" target="_blank">karn 2608/123 RF Stock Photo</a>.</p>
+</div>
+<div class="imagewrap"><span class="image"><img alt="A photograph depicting the inner workings of a hard disk. The disk is circular, like a phonograph record, with an arm over it." class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image24.png" title="A photograph depicting the inner workings of a hard disk. The disk is circular, like a phonograph record, with an arm over it."/></span>
+<p id="N10698" lang="">Hard disk dissection. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/4jcppM" id="_i_3" lang="" target="_blank">Roberto Fantana</a>.</p>
+</div>
+<p id="N106A1" lang="">Hard drives are rated on several characteristics beyond the simple measurement of how much storage space they have. Most users will simply pick a drive based on the storage capacity, but the other performance factors can be even more important. If the drive is a SATA device, it can reach data transfer speeds of up to 6 Gbps, but that is dependent on how fast the drive can access the data from the disk. Hard drives have a spin rate, which is measured in rotations per minute (RPM). It is common for hard drives to have a 5400 RPM rate, but more expensive drives have 7200 RPM, 10000 RPM, or even 15000 RPM rates. The faster spin rates are usually found in servers and high-performance gaming systems, but the 7200 RPM drives are becoming more commonplace as prices continue to decline. Hard disks also have an internal buffer or cache. A inexpensive drive may have a buffer of only 8 MB, while a more expensive drive will have 64 MB of buffer. The bigger the buffer, the better the performance, and the faster the data retrieval from the disk.</p>
+<p id="N106A4" lang="">The newest technology in the storage arena is the solid state drive (SSD). As with most technology, this was fairly expensive when first introduced into the market, but pricing has leveled off and most PC manufacturers offer an SSD solution on new machines.</p>
+<p id="N106A6" lang="">Initially, in an effort to increase performance, some HDD manufacturers created a hybrid drive, combining a small solid state drive with a large traditional hard disk to give the user increased speed without the enormous cost of solid state drives. These devices are faster than a traditional drive, but not nearly as fast as an SSD.</p>
+<p id="N106A8" lang="">In addition to hybrid drives, Intel developed the mSata interface for mobile computing. The smaller form factor allows high-capacity SSD storage at the same access speeds by connecting to the SATA host controller.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting an SSD/HDD hybrid + HDD hard drive sitting on top of other devices. It is a flat rectangular box that is silver with a black border. The device has writing on it that is not decipherable, with the exception of an Intel logo." class="popimg" id="_i_4" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image25.png" title="Photograph depicting an SSD/HDD hybrid + HDD hard drive sitting on top of other devices. It is a flat rectangular box that is silver with a black border. The device has writing on it that is not decipherable, with the exception of an Intel logo."/></span>
+<p id="N106B1" lang="">SSD/HDD hybrid + HDD hard drive. Photo used under CC-BY license from<span> </span><a href="https://flic.kr/p/bLZu6c" id="_i_5" lang="" target="_blank">Yutaka Tsutano</a>.</p>
+</div>
+<p id="N106BA" lang="">SSDs are intended to replace the traditional hard disk. They are fast and durable, and contain no moving parts. The SSD emulates a traditional hard drive and is often used in netbooks, Ultrabooks, and other lightweight systems, or machines that require fast, quiet performance. Most SSDs come in a 2.5-inch form factor, similar to a laptop hard disk, and use a 2.5-inch to 3.5-inch adapter when being placed in a desktop computer. The SSD can be built using multilevel cell (MLC) to save money, but these tend to be much slower than their more expensive and faster counterpart, the SLC (single level cell). Initially, these drives cost five to ten times as much as an equivalent-capacity traditional hard disk. Market demand and increased production have helped lower the pricing. As of the end of 2015, a 2.5-inch 250 GB SATAIII SSD can be purchased for less than $100, but the same amount of money would purchase a traditional 2 TB HDD. But, they are significantly faster and quieter, since they can access the information directly without having to wait for the hard disk to spin up and find the data on the disk.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting a solid state drive (SSD) with solid state chips on a circuit board." class="popimg" id="_i_6" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image26.png" title="Photograph depicting a solid state drive (SSD) with solid state chips on a circuit board."/></span>
+<p id="N106C3" lang="">Solid state drive (SSD). Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/6tESgu" id="_i_7" lang="" target="_blank">Thomas Schewe</a>.</p>
+</div>
+<p id="N106CC" lang="">A redundant array of inexpensive drives (RAID) combines numerous traditional physical hard drives into a single logical disk to provide a faster or more redundant singular drive. RAID 0 (RAID zero) uses at least two drives to act as a single drive, using<span> </span><a aria-describedby="N106D0" class="extra" id=""></a>striping<span> </span>to boost performance. But, if either drive fails, all the data is lost. Therefore, with RAID 0, the user gains speed but does not gain any redundancy. RAID 1 (RAID one) uses at least two drives to act as a single drive, using<span> </span><a aria-describedby="N106D8" class="extra" id=""></a>mirroring<span> </span>to boost redundancy. Every time the drive is written to by the computer, two copies of the information are written (one to each drive). So, if either drive fails, all the data is still accessible and safe on the other drive. With RAID 1 the user gains redundancy, but does not gain any speed.</p>
+<p id="N106DF" lang="">Since RAID 0 gave us speed with no redundancy, and RAID 1 gave us redundancy with no increase in speed, engineers developed a hybrid of the two called RAID 01 or RAID 10. In RAID 01 or 10, four drives are combined using the striping from RAID 0 with the mirroring from RAID 1 to gain both speed and redundancy. The only problem with this solution is that you lose fifty percent of the storage space (just like we did in RAID 1) to overhead/redundancy. To overcome this, another variant, RAID 5, was established. In RAID 5, at least three drives are required and they operate as a single logical drive. When information is written to the drive, that information is striped across the drives and a parity is also spread across the drives. If a single drive fails, the information can be rebuilt using the existing information and parity information to fill in the missing pieces. Using hot-swappable drives, a bad drive can be removed, a new one inserted, and the RAID rebuilt without any downtime (though a performance loss will occur while the RAID is being rebuilt).</p>
+<div class="imagewrap"><span class="image"><img class="popimg" id="_i_8" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image27.png"/></span>
+<p id="N106E7" lang="">Stripe of RAID Mirrors. Image used under CC-BY license from<span> </span><a href="https://flic.kr/p/p8jmLq" id="_i_9" lang="" target="_blank">Linux Screenshots</a>.</p>
+</div>
+<p id="N106F0" lang="">To create a RAID array, the workstation must have either a PATA or SATA hardware controller that supports hardware RAIDs. Some motherboards support these natively, while others will require the user to purchase an expansion card to perform these functions. If your system doesn’t support hardware RAIDs, Windows does support software RAIDs on all systems, but you will lose the benefits of the RAID for the main operating system using this approach.</p>
+<p id="N106F3" lang="">Hardware RAIDs require at least two hard disks for RAID 0 or RAID 1, at least three disks for RAID 5, and at least four disks for RAID 10 or RAID 01. To create a software RAID, you can use Windows’ disk management software to create the RAIDs for data drives and other partitions.</p>
+<p id="N10678" lang="">Computers require several things to function well: a method to receive data input, a method to process data, a way to output data, and a way to store data. Data storage has evolved over the years, but the most common storage mechanism, the hard disk, has been around for more than 35 years. The only real change has been in physical size (they have gotten smaller), logical size (they can store much more data), speed, and connector types. The most common types of connectors are SATA, PATA/IDE, SCSI, floppy, eSATA, FireWire, USB, and network connections, each of which we will discuss.</p>
+<p id="N1067B" lang="">PATA (Parallel Advanced Technology Attachment) has been around since the 1980s, but used to be called IDE (Integrated Drive Electronics). This type of connector uses a cable made up of 40 wires or 80 wires (which supported cable select mode). Both types of cables had 40 pins on each end. The newer-style cables were color-coded, so that the blue connector attached to the motherboard, the black connector attached to the primary (or master) device, and the gray connector attached to the secondary (or slave) device. This connector type was used for hard disk drives, CD drives, DVD drives, and some tape backup drives. Each of these devices has a jumper on it that must be set to “master,” “slave,” or “cable select” mode. “Cable select” eliminated the need to manually assign the master or slave. Each cable could support up to two devices, but only one master or slave device could be used on each cable. The BIOS had to be configured properly before using these devices. In spite of improvements to the EIDE interface using Ultra Direct Memory Access (UDMA), Serial ATA (SATA) is not limited to four devices per channel and has much faster access times.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting three IDE drives, each rectangular, stacked on top of each other." class="popimg" id="_i_0" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image28.png" title="Photograph depicting three IDE drives, each rectangular, stacked on top of each other."/></span>
+<p id="N10684" lang="">IDE drive. Photo used under CC-BY-NC-ND license from<span> </span><a href="https://flic.kr/p/389w77" id="_i_1" lang="" target="_blank">Brian Barnett</a>.</p>
+</div>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting an IDE cable next to a SATA cable. The IDE cable is black with a blue, multi-pin connector. The SATA cable is red with a black connector." class="popimg" id="_i_2" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image29.png" title="Photograph depicting an IDE cable next to a SATA cable. The IDE cable is black with a blue, multi-pin connector. The SATA cable is red with a black connector."/></span>
+<p id="N10693" lang="">Drive cables. Photo used under CC-BY license from<span> </span><a href="https://flic.kr/p/8h6x3F" id="_i_3" lang="" target="_blank">gcg 2009</a>.</p>
+</div>
+<p id="N1069C" lang="">SATA is the current connection method used for hard disks and optical drives. It is called serial because only a single device can be attached to each cable, and the data is transmitted in serial fashion (one bit at a time). These devices often do not have jumpers, but if they have one, it is used to configure the speed of data transfer or to enable a special feature like<span> </span><a aria-describedby="N1069F" class="extra" id=""></a>spread spectrum clocking<span> </span>. SATA is a peripheral device and is very fast, allowing for speeds of up to 6 Gbps for the newer version, or 3 Gbps for the older versions. The data cable is shaped like an L, with seven pins for data. The power cable is also L-shaped, but has 15 pins. Internal SATA ports can be converted to an eSATA (external SATA) port simply by using a header to connect the internal port.</p>
+<div class="imagewrap"><span class="image"><img alt="Photograph depicting a SATA drive with the circuit board and connector exposed." class="popimg" id="_i_4" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image30.png" title="Photograph depicting a SATA drive with the circuit board and connector exposed."/></span>
+<p id="N106AB" lang="">SATA drive. Photo used under CC-BY license from<span> </span><a href="https://flic.kr/p/8Fysrr" id="_i_5" lang="" target="_blank">Arkadiusz Sikorski</a>.</p>
+</div>
+<p id="N106B4" lang="">SCSI, or small computer system interface, supports daisy-chaining of devices (internally or externally) with either seven devices (narrow SCSI) or 15 devices (wide SCSI). Each device in the chain is provided with a Device ID number that is configured using a selector switch, DIP (dual inline package) switch, or jumper block. SCSI is an older technology and has largely been replaced by SATA and eSATA. Narrow SCSI could only support speeds of up to 40 MBps, while wide SCSI could support up to 320 MBps.</p>
+<span class="image"><img alt="Photograph depicting an HP Surestore DAT-drive with two blue SCSI ports on the back. There is also a power cord port and a power on/off toggle button." class="popimg" id="_i_6" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image31.png" title="Photograph depicting an HP Surestore DAT-drive with two blue SCSI ports on the back. There is also a power cord port and a power on/off toggle button."/></span>
+<p id="N106BD" lang="">HP Surestore DAT-drive with two blue SCSI ports on the back. Photo used under CC-BY-SA license from<span> </span><a href="https://flic.kr/p/7rzVde" id="_i_7" lang="" target="_blank">Gerben Wierda</a>.</p>
+<p id="N106BD" lang=""><span>When desktops were originally developed, they weren’t designed to allow for hot-swapping of devices. Hot-swapping is the act of adding or removing a device while the computer is still turned on. In the old days, the user would shut the system down, power the workstation off, then connect the device, and turn the machine back on, otherwise the computer wouldn’t recognize the new device. In the late 1990s, the Windows operating system began to allow hot-swapping of devices, which included USB and FireWire. This allowed the user to simply plug in a device, wait a few seconds, and then begin using it to store or retrieve data. Due to this hot-swapping, it is important that users use the “eject drive safely” feature in Windows before unplugging a device, otherwise </span><em class="bold" lang="">data loss will occur</em><span>. SATA/eSATA also support hot-swapping, but only if AHCI (advanced host controller interface) is selected during configuration in the BIOS. If not, the drive will work as if it is an older PATA/IDE device and will not support hot-swapping.</span></p>
+<br/><br/><span><a class="module-heading" href="https://oli.cmu.edu/jcourse/webui/syllabus/module.do?context=d87f2e150a0001dc75731b82086650f9">PCH 7 </a><b> </b></span><span>擴充卡，音頻 視頻和存儲</span><br/>
+<p id="N1066F" lang=""><span>在本課程中，我們將更深入地研究可插入主板的擴展卡。我們將重點介紹視頻卡的安裝。重要的是要注意，安裝視頻卡的相同原理將適用於安裝任何擴展卡。接下來，我們將介紹兩個主要製造商的中央處理單元：英特爾和AMD。最後，我們將回顧計算機可以使用的存儲設備。</span></p>
+<div class="section" id="N10672">
+<div class="sectionContain">
+<br />Storage Devices  External Devices << <a href='Storage Devices  External Devices.html'>Previous</a> <a href='擴展插槽.html'>Next</a> >> 擴展插槽</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
