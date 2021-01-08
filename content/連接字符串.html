@@ -133,11 +133,23 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業<br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<br />About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業</div>
+    <div id="tipue_search_content">分割字符串 << <a href='分割字符串.html'>Previous</a> <a href='Discussion-3.html'>Next</a> >> Discussion-3<br /><h1>連接字符串</h1>
+<p><span><span>您還可以相對容易地將字符串“連接”或“混入”：</span></span></p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">listofstrings</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">]</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="s">"**"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">listofstrings</span><span class="p">)</span></code></pre>
+</figure>
+<p><span><span>然後</span></span><code class="highlighter-rouge">result</code><span><span>將包含字符串：</span></span></p>
+<figure class="highlight">
+<pre><code class="language-pycon" data-lang="pycon">  a**b**c</code></pre>
+</figure>
+<br/>16  <a href="https://www.practicepython.org/exercise/2014/05/28/16-password-generator.html">Password Generator</a><span> </span> <span></span> <br/>Exercise 16  and<span> </span><a href="https://www.practicepython.org/solution/2014/06/06/16-password-generator-solutions.html">Solution</a>
+<p>Write a password generator in Python. Be creative with how you generate passwords - strong passwords have a mix of lowercase letters, uppercase letters, numbers, and symbols. The passwords should be random, generating a new password every time the user asks for a new password. Include your run-time code in a main method.</p>
+<p>Extra:</p>
+<ul>
+<li>Ask the user how strong they want their password to be. For weak passwords, pick a word or two from a list.</li>
+</ul>
+<br />分割字符串 << <a href='分割字符串.html'>Previous</a> <a href='Discussion-3.html'>Next</a> >> Discussion-3</div>
         
     <!-- footer -->
       <div class="container">

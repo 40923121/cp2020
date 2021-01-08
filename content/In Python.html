@@ -133,11 +133,40 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業<br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<br />About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業</div>
+    <div id="tipue_search_content">Features of sets << <a href='Features of sets.html'>Previous</a> <a href='討論區-1.html'>Next</a> >> 討論區-1<br /><h1>In Python</h1>
+<p>In Python, you make and use a set with the<span> </span><code class="highlighter-rouge">set()</code><span> </span>keyword. For example:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Michele"</span><span class="p">)</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Robin"</span><span class="p">)</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Michele"</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span></code></pre>
+</figure>
+<p>And the output will be;</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="nb">set</span><span class="p">([</span><span class="s">'Michele'</span><span class="p">,</span> <span class="s">'Robin'</span><span class="p">])</span></code></pre>
+</figure>
+<p>You can do to a set almost anything you can do to a list (except ask for things like “the third element”). See the<span> </span><a href="https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set">Python documentation about sets</a><span> </span>to get a full list of things you can do to sets.</p>
+<p>You can convert from a list to a set and a set to a list pretty easily:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Michele"</span><span class="p">,</span> <span class="s">"Robin"</span><span class="p">,</span> <span class="s">"Sara"</span><span class="p">,</span> <span class="s">"Michele"</span><span class="p">]</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span></code></pre>
+</figure>
+<p>And the result of this will be:</p>
+<figure class="highlight">
+<pre><code class="language-pycon" data-lang="pycon">  ['Michele', 'Robin', 'Sara']<br/></code></pre>
+</figure>
+<br/><span>14 </span><a href="https://www.practicepython.org/exercise/2014/05/15/14-list-remove-duplicates.html"><span>列出刪除重複項</span></a>
+<br/><span>練習14 和</span><a href="https://www.practicepython.org/solution/2014/05/21/14-list-remove-duplicates-solutions.html"><span>解決方案</span></a>
+<p><span><span>編寫一個包含一個列表並返回一個新列表的程序（函數！），該列表包含第一個列表的所有元素減去所有重複項。</span></span></p>
+<p><span><span>附加功能：</span></span></p>
+<ul>
+<li><span><span>編寫兩個不同的函數來執行此操作-一個使用循環並構造一個列表，另一個使用集合。</span></span></li>
+<li><span><span>返回並</span><span>使用集合</span><span>進行</span></span><a href="https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html"><span><span>練習5</span></span></a><span><span>，然後使用其他函數編寫解決方案。</span></span></li>
+</ul>
+<br />Features of sets << <a href='Features of sets.html'>Previous</a> <a href='討論區-1.html'>Next</a> >> 討論區-1</div>
         
     <!-- footer -->
       <div class="container">

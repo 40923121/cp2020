@@ -275,7 +275,7 @@
 <span class="image"><img alt="Photograph depicting an HP Surestore DAT-drive with two blue SCSI ports on the back. There is also a power cord port and a power on/off toggle button." class="popimg" id="_i_6" onclick="loadImageFromPage(this);" src="https://oli.cmu.edu/repository/webcontent/d826575d0a0001dc3e9f244fa018c560/PCH07/webcontent/PCH07/image31.png" title="Photograph depicting an HP Surestore DAT-drive with two blue SCSI ports on the back. There is also a power cord port and a power on/off toggle button."/></span>
 <p id="N106BD" lang="">HP Surestore DAT-drive with two blue SCSI ports on the back. Photo used under CC-BY-SA license from<span> </span><a href="https://flic.kr/p/7rzVde" id="_i_7" lang="" target="_blank">Gerben Wierda</a>.</p>
 <p id="N106BD" lang=""><span>When desktops were originally developed, they weren’t designed to allow for hot-swapping of devices. Hot-swapping is the act of adding or removing a device while the computer is still turned on. In the old days, the user would shut the system down, power the workstation off, then connect the device, and turn the machine back on, otherwise the computer wouldn’t recognize the new device. In the late 1990s, the Windows operating system began to allow hot-swapping of devices, which included USB and FireWire. This allowed the user to simply plug in a device, wait a few seconds, and then begin using it to store or retrieve data. Due to this hot-swapping, it is important that users use the “eject drive safely” feature in Windows before unplugging a device, otherwise </span><em class="bold" lang="">data loss will occur</em><span>. SATA/eSATA also support hot-swapping, but only if AHCI (advanced host controller interface) is selected during configuration in the BIOS. If not, the drive will work as if it is an older PATA/IDE device and will not support hot-swapping.</span></p>
-<br/><br/><span><a class="module-heading" href="https://oli.cmu.edu/jcourse/webui/syllabus/module.do?context=d87f2e150a0001dc75731b82086650f9">PCH 7<span> </span></a><b> </b></span><span>擴充卡，音頻，視頻和存儲</span>
+<br/><br/><span><a class="module-heading" href="https://oli.cmu.edu/jcourse/webui/syllabus/module.do?context=d87f2e150a0001dc75731b82086650f9">PCH 7 </a><b> </b></span><span>擴充卡，音頻 視頻和存儲</span><br/>
 <p id="N1066F" lang=""><span>在本課程中，我們將更深入地研究可插入主板的擴展卡。我們將重點介紹視頻卡的安裝。重要的是要注意，安裝視頻卡的相同原理將適用於安裝任何擴展卡。接下來，我們將介紹兩個主要製造商的中央處理單元：英特爾和AMD。最後，我們將回顧計算機可以使用的存儲設備。</span></p>
 <div class="section" id="N10672">
 <div class="sectionContain">
@@ -752,6 +752,112 @@
 <p id="N106AE" lang=""><span><span>在下面的實驗練習中，您應該卸下舊的機箱風扇並安裝新的機箱風扇。</span><span>確保使用適當的安全預防措施。</span><span>在本實驗中，您可以假定已經採取了ESD預防措施。</span></span></p>
 <h3><span title="快速向上滾動"><span>液體冷卻 安裝</span></span></h3>
 <p id="N10714" lang=""><span><span>在當代計算機中安裝液體冷卻系統並不像以前那樣困難。</span><span>與往常一樣，首先關閉計算機電源並拔下電源插頭。</span><span>然後打開機殼，並按照前面詳述的相同方式安裝處理器。</span><span>接下來，清潔CPU和水塊，清除灰塵和碎屑。</span><span>然後，像在主動冷卻系統中一樣使用導熱膏。</span><span>之後，請使用水冷塊代替傳統的散熱器。</span><span>接下來，安裝散熱器代替後箱風扇。</span><span>然後將散熱器連接到水箱。</span><span>確保重新連接電源，打開計算機電源，並確保液體冷卻系統正常運行。</span><span>然後關閉外殼。</span></span></p>
+<h2>hw2</h2>
+<h2>hw3</h2>
+<br/>13 <span> </span><a href="https://www.practicepython.org/exercise/2014/04/30/13-fibonacci.html">Fibonacci</a><span> </span> <br/>Exercise 13  and<span> </span><a href="https://www.practicepython.org/solution/2014/07/25/13-fibonacci-solutions.html">Solution</a>
+<p>Write a program that asks the user how many Fibonnaci numbers to generate and then generates them. Take this opportunity to think about how you can use functions. Make sure to ask the user to enter the number of numbers in the sequence to generate.(<em>Hint: The Fibonnaci seqence is a sequence of numbers where the next number in the sequence is the sum of the previous two numbers in the sequence. The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …</em>)</p>
+<br/>14 <span> </span><a href="https://www.practicepython.org/exercise/2014/05/15/14-list-remove-duplicates.html">List Remove Duplicates</a><span> </span> <br/>Exercise 14  and<span> </span><a href="https://www.practicepython.org/solution/2014/05/21/14-list-remove-duplicates-solutions.html">Solution</a>
+<p>Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates.</p>
+<p>Extras:</p>
+<ul>
+<li>Write two different functions to do this - one using a loop and constructing a list, and another using sets.</li>
+<li>Go back and do<span> </span><a href="https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html">Exercise 5</a><span> </span>using sets, and write the solution for that in a different function.</li>
+</ul>
+<h3 id="discussion">Discussion</h3>
+<p>Concepts for this week:</p>
+<ul>
+<li>Sets</li>
+</ul>
+<h3 id="sets">Sets</h3>
+<p>In mathematics, a<span> </span><strong>set</strong><span> </span>is a collection of elements where no element is repeated. This becomes useful because if you know your data is stored in a set, you are guaranteed to have unique elements.</p>
+<h3 id="features-of-sets">Features of sets</h3>
+<ul>
+<li>Sets are<span> </span><strong>not ordered</strong>. This means that there is no “first element” or “last element.” There are just “elements”. You cannot ask a set for it’s “next element”.</li>
+<li>There are no repeat elements in sets.</li>
+<li>You can convert between sets and lists very easily.</li>
+</ul>
+<h3 id="in-python">In Python</h3>
+<p>In Python, you make and use a set with the<span> </span><code class="highlighter-rouge">set()</code><span> </span>keyword. For example:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Michele"</span><span class="p">)</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Robin"</span><span class="p">)</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Michele"</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span></code></pre>
+</figure>
+<p>And the output will be;</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="nb">set</span><span class="p">([</span><span class="s">'Michele'</span><span class="p">,</span> <span class="s">'Robin'</span><span class="p">])</span></code></pre>
+</figure>
+<p>You can do to a set almost anything you can do to a list (except ask for things like “the third element”). See the<span> </span><a href="https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set">Python documentation about sets</a><span> </span>to get a full list of things you can do to sets.</p>
+<p>You can convert from a list to a set and a set to a list pretty easily:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Michele"</span><span class="p">,</span> <span class="s">"Robin"</span><span class="p">,</span> <span class="s">"Sara"</span><span class="p">,</span> <span class="s">"Michele"</span><span class="p">]</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span></code></pre>
+</figure>
+<p>And the result of this will be:</p>
+<figure class="highlight">
+<pre><code class="language-pycon" data-lang="pycon">  ['Michele', 'Robin', 'Sara']</code></pre>
+</figure>
+<br/>15 <span> </span><a href="https://www.practicepython.org/exercise/2014/05/21/15-reverse-word-order.html">Reverse Word Order</a><span> </span> <br/>Exercise 15  and<span> </span><a href="https://www.practicepython.org/solution/2014/05/28/15-reverse-word-order-solutions.html">Solution</a>
+<p>Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">My</span> <span class="n">name</span> <span class="ow">is</span> <span class="n">Michele</span></code></pre>
+</figure>
+<p>Then I would see the string:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">Michele</span> <span class="ow">is</span> <span class="n">name</span> <span class="n">My</span></code></pre>
+</figure>
+<p>shown back to me.</p>
+<h3 id="discussion">Discussion</h3>
+<p>Concepts for this week:</p>
+<ul>
+<li>More string things</li>
+</ul>
+More string things
+<p>Python has a lot of interesting things you can do with strings. I will show a few here, but you can see many more methods that may or may not be useful at the<span> </span><a href="https://docs.python.org/3.3/library/stdtypes.html?highlight=strings#string-methods">official Python documentation about the string format</a>.</p>
+<p>Remember that<span> </span><a href="https://www.practicepython.org/exercise/2014/03/12/06-string-lists.html">strings are lists</a>.</p>
+Splitting strings
+<p>You can “split” or tear apart strings based on a given set of characters. For example:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">teststring</span> <span class="o">=</span> <span class="s">"this is a test"</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="n">teststring</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">"t"</span><span class="p">)</span></code></pre>
+</figure>
+<p>And at the end,<span> </span><code class="highlighter-rouge">result</code><span> </span>will contain the list:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="p">[</span><span class="s">''</span><span class="p">,</span> <span class="s">'his is a '</span><span class="p">,</span> <span class="s">'es'</span><span class="p">,</span> <span class="s">''</span><span class="p">]</span></code></pre>
+</figure>
+<p>Instead of<span> </span><code class="highlighter-rouge">"t"</code>, you can write any character you want. If you do not include any character, it means “split on all whitespace”:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">teststring</span> <span class="o">=</span> <span class="s">"  this      has a lot    of   spaces and    tabs"</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="n">testring</span><span class="o">.</span><span class="n">split</span><span class="p">()</span></code></pre>
+</figure>
+<p>Then<span> </span><code class="highlighter-rouge">result</code><span> </span>contains:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="p">[</span><span class="s">'this'</span><span class="p">,</span> <span class="s">'has'</span><span class="p">,</span> <span class="s">'a'</span><span class="p">,</span> <span class="s">'lot'</span><span class="p">,</span> <span class="s">'of'</span><span class="p">,</span> <span class="s">'spaces'</span><span class="p">,</span> <span class="s">'and'</span><span class="p">,</span> <span class="s">'tabs'</span><span class="p">]</span></code></pre>
+</figure>
+Joining strings
+<p>You can also relatively easily “join” or “smush” strings together:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">listofstrings</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">]</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="s">"**"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">listofstrings</span><span class="p">)</span></code></pre>
+</figure>
+<p>Then<span> </span><code class="highlighter-rouge">result</code><span> </span>will contain the string:</p>
+<figure class="highlight">
+<pre><code class="language-pycon" data-lang="pycon">  a**b**c</code></pre>
+</figure>
+<p>Take a look at the official Python documentation for more information.</p>
+<br/>16  <a href="https://www.practicepython.org/exercise/2014/05/28/16-password-generator.html">Password Generator</a><span> </span> <span></span>
+<br/>Exercise 16  and<span> </span><a href="https://www.practicepython.org/solution/2014/06/06/16-password-generator-solutions.html">Solution</a>
+<p>Write a password generator in Python. Be creative with how you generate passwords - strong passwords have a mix of lowercase letters, uppercase letters, numbers, and symbols. The passwords should be random, generating a new password every time the user asks for a new password. Include your run-time code in a main method.</p>
+<p>Extra:</p>
+<ul>
+<li>Ask the user how strong they want their password to be. For weak passwords, pick a word or two from a list.</li>
+</ul>
+<h3 id="discussion">Discussion</h3>
+<p>There are no new topics this week, but you will need to use<span> </span><a href="https://docs.python.org/3.3/library/random.html">Python’s random module</a>, described in<span> </span><a href="https://www.practicepython.org/exercise/2014/04/02/09-guessing-game-one.html">this post</a>.</p>
 <p><a class="module-heading" href="https://oli.cmu.edu/jcourse/webui/syllabus/module.do?context=d87f2e620a0001dc377f685c2a382e6e"></a></p>
 <div class="section" id="N106A6">
 <div class="sectionContain"></div>

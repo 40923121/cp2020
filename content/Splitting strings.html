@@ -133,11 +133,26 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業<br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<br />About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業</div>
+    <div id="tipue_search_content">More string things << <a href='More string things.html'>Previous</a> <a href='Joining strings.html'>Next</a> >> Joining strings<br /><h1>Splitting strings</h1>
+<p>You can “split” or tear apart strings based on a given set of characters. For example:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">teststring</span> <span class="o">=</span> <span class="s">"this is a test"</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="n">teststring</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">"t"</span><span class="p">)</span></code></pre>
+</figure>
+<p>And at the end,<span> </span><code class="highlighter-rouge">result</code><span> </span>will contain the list:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="p">[</span><span class="s">''</span><span class="p">,</span> <span class="s">'his is a '</span><span class="p">,</span> <span class="s">'es'</span><span class="p">,</span> <span class="s">''</span><span class="p">]</span></code></pre>
+</figure>
+<p>Instead of<span> </span><code class="highlighter-rouge">"t"</code>, you can write any character you want. If you do not include any character, it means “split on all whitespace”:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">teststring</span> <span class="o">=</span> <span class="s">"  this      has a lot    of   spaces and    tabs"</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="n">testring</span><span class="o">.</span><span class="n">split</span><span class="p">()</span></code></pre>
+</figure>
+<p>Then<span> </span><code class="highlighter-rouge">result</code><span> </span>contains:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="p">[</span><span class="s">'this'</span><span class="p">,</span> <span class="s">'has'</span><span class="p">,</span> <span class="s">'a'</span><span class="p">,</span> <span class="s">'lot'</span><span class="p">,</span> <span class="s">'of'</span><span class="p">,</span> <span class="s">'spaces'</span><span class="p">,</span> <span class="s">'and'</span><span class="p">,</span> <span class="s">'tabs'</span><span class="p">]</span></code></pre>
+</figure>
+<br />More string things << <a href='More string things.html'>Previous</a> <a href='Joining strings.html'>Next</a> >> Joining strings</div>
         
     <!-- footer -->
       <div class="container">

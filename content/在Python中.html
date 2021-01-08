@@ -133,11 +133,38 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業<br /><h1>Develop</h1>
-<p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
-<p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
-<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<br />About << <a href='About.html'>Previous</a> <a href='作業.html'>Next</a> >> 作業</div>
+    <div id="tipue_search_content">集的特徵 << <a href='集的特徵.html'>Previous</a> <a href='Discussion-2.html'>Next</a> >> Discussion-2<br /><h1>在Python中</h1>
+<p><span><span>在Python中，使用</span></span><code class="highlighter-rouge">set()</code><span><span>關鍵字</span><span>set並使用set<span> </span></span><span>。</span><span>例如：</span></span></p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Michele"</span><span class="p">)</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Robin"</span><span class="p">)</span>
+  <span class="n">names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s">"Michele"</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span></code></pre>
+</figure>
+<p><span><span>輸出將是；</span></span></p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="nb">set</span><span class="p">([</span><span class="s">'Michele'</span><span class="p">,</span> <span class="s">'Robin'</span><span class="p">])</span></code></pre>
+</figure>
+<p><span><span>您可以設置一個集合，幾乎可以對列表執行任何操作（要求“第三個元素”之類的東西除外）。</span><span>請參閱</span></span><a href="https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set"><span><span>有關集合</span></span></a><span><span>的</span><a href="https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set"><span>Python文檔，</span></a><span>以獲取可以</span><a href="https://docs.python.org/3.3/library/stdtypes.html?highlight=set#set"><span>對集合</span></a><span>進行操作的完整列表。</span></span></p>
+<p><span><span>您可以很容易地將列表轉換為集合，然後將集合轉換為列表：</span></span></p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Michele"</span><span class="p">,</span> <span class="s">"Robin"</span><span class="p">,</span> <span class="s">"Sara"</span><span class="p">,</span> <span class="s">"Michele"</span><span class="p">]</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+  <span class="n">names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">names</span><span class="p">)</span></code></pre>
+</figure>
+<br/><br/>15 <span> </span><a href="https://www.practicepython.org/exercise/2014/05/21/15-reverse-word-order.html">Reverse Word Order</a><span> </span> <br/>Exercise 15  and<span> </span><a href="https://www.practicepython.org/solution/2014/05/28/15-reverse-word-order-solutions.html">Solution</a>
+<p>Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">My</span> <span class="n">name</span> <span class="ow">is</span> <span class="n">Michele</span></code></pre>
+</figure>
+<p>Then I would see the string:</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">  <span class="n">Michele</span> <span class="ow">is</span> <span class="n">name</span> <span class="n">My</span></code></pre>
+</figure>
+<p>shown back to me.</p>
+<br />集的特徵 << <a href='集的特徵.html'>Previous</a> <a href='Discussion-2.html'>Next</a> >> Discussion-2</div>
         
     <!-- footer -->
       <div class="container">
